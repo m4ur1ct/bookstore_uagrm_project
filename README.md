@@ -1,4 +1,4 @@
-**Integrantes:**
+**Integrantes: **
 
 ** - Ignacio Arispe Egüez **
 ** - Wilmer Arturo Calumani Balboa **
