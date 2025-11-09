@@ -1,6 +1,6 @@
 **Integrantes:**
 
-** - Ignacio Arispe Egüez **
-** - Wilmer Arturo Calumani Balboa **
-** - Mauricio Canseco Torres **
-** - Alejandro Aranibar **
+** 1. Ignacio Arispe Egüez **
+** 2. Wilmer Arturo Calumani Balboa **
+** 3. Mauricio Canseco Torres **
+** 4. Alejandro Aranibar **
