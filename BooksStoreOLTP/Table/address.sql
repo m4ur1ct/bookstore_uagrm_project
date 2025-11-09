@@ -1,0 +1,30 @@
+﻿USE [Bookstore]
+GO
+
+/****** Object:  Table [dbo].[address]    Script Date: 9/11/2025 12:17:01 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[address](
+	[address_id] [int] NOT NULL,
+	[street_number] [varchar](10) NULL,
+	[street_name] [varchar](200) NULL,
+	[city] [varchar](100) NULL,
+	[country_id] [int] NULL,
+	[rowversion] [timestamp] NOT NULL,
+ CONSTRAINT [pk_address] PRIMARY KEY CLUSTERED 
+(
+	[address_id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[address]  WITH CHECK ADD  CONSTRAINT [fk_addr_ctry] FOREIGN KEY([country_id])
+REFERENCES [dbo].[country] ([country_id])
+GO
+
+ALTER TABLE [dbo].[address] CHECK CONSTRAINT [fk_addr_ctry]
+GO
