@@ -8,9 +8,11 @@ GO
 
 ALTER TABLE FactOrderStatusHistory 
     ADD CONSTRAINT PK_FactOrderStatusHistory PRIMARY KEY (OrderID, OrderStatusSK, StatusDateKey);
+GO
 
 ALTER TABLE FactOrderStatusHistory ADD CONSTRAINT FK_FactOrderStatusHistory_OrderStatus
     FOREIGN KEY (OrderStatusSK) REFERENCES DimOrderStatus(OrderStatusSK);
+GO
 
 ALTER TABLE FactOrderStatusHistory ADD CONSTRAINT FK_FactOrderStatusHistory_Date
     FOREIGN KEY (StatusDateKey) REFERENCES DimDate(DateKey);

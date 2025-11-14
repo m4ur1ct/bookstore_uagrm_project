@@ -1,0 +1,6 @@
+C:\maestria_uagrm\bookstore_uagrm_project\BookStoreDW\bin\Debug\BookStoreDW.dacpac
+C:\maestria_uagrm\bookstore_uagrm_project\BookStoreDW\obj\Debug\BookStoreDW.sqlproj.AssemblyReference.cache
+C:\maestria_uagrm\bookstore_uagrm_project\BookStoreDW\obj\Debug\BookStoreDW.dll
+C:\maestria_uagrm\bookstore_uagrm_project\BookStoreDW\obj\Debug\BookStoreDW.pdb
+C:\maestria_uagrm\bookstore_uagrm_project\BookStoreDW\bin\Debug\BookStoreDW.dll
+C:\maestria_uagrm\bookstore_uagrm_project\BookStoreDW\bin\Debug\BookStoreDW.pdb
