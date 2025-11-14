@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[FactOrderLines]
+﻿CREATE TABLE [dbo].[FactOrderLines]
 (
     [LineID]             INT             NOT NULL,   -- order_line.line_id
     [OrderID]            INT             NOT NULL,   -- cust_order.order_id

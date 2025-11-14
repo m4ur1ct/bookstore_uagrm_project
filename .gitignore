@@ -3,3 +3,5 @@
 BooksStoreOLTP/.vs/
 BooksStoreOLTP/bin/
 BooksStoreOLTP/obj/Debug/
+*.dbmdl
+*.jfm

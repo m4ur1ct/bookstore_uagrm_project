@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[FactOrderStatusHistory]
+﻿CREATE TABLE [dbo].[FactOrderStatusHistory]
 (
     [OrderID]         INT           NOT NULL,
     [OrderStatusSK]   INT           NOT NULL,

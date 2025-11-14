@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[DimBook]
+﻿CREATE TABLE [dbo].[DimBook]
 (
     [BookSK]   INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_DimBook PRIMARY KEY,
     [BookID]   INT               NOT NULL,

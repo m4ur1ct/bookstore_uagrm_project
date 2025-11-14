@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[FactOrders]
+﻿CREATE TABLE [dbo].[FactOrders]
 (
     [OrderID]            INT            NOT NULL PRIMARY KEY,
 

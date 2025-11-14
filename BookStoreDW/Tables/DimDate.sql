@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[DimDate]
+﻿CREATE TABLE [dbo].[DimDate]
 (
     [DateKey]          INT         NOT NULL CONSTRAINT PK_DimDate PRIMARY KEY,
     [FullDate]         DATE        NOT NULL,
