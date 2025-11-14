@@ -1,7 +1,128 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mauriciocanseco\\source\\repos\\BooksStoreOLTP\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\shipping_method.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\shipping_method.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\publisher.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\publisher.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\order_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_line.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\order_line.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_history.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\order_history.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\cust_order.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\cust_order.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer_address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\customer_address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\customer.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\country.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\country.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_language.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\book_language.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\book_author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\book.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\address_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\address_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\book.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\book_author.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_language.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\book_language.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\country.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\country.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\customer.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer_address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\customer_address.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\cust_order.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\cust_order.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_history.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\order_history.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_line.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\order_line.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\order_status.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\publisher.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\publisher.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\shipping_method.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{50F10770-C0A5-4CDC-A559-03A906471390}|BooksStoreOLTP.sqlproj|solutionrelative:Table\\shipping_method.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +130,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "shipping_method.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\shipping_method.sql",
+              "RelativeDocumentMoniker": "Table\\shipping_method.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\shipping_method.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:20:04.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "publisher.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\publisher.sql",
+              "RelativeDocumentMoniker": "Table\\publisher.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\publisher.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:19:43.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "order_status.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_status.sql",
+              "RelativeDocumentMoniker": "Table\\order_status.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_status.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:19:21.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "order_line.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_line.sql",
+              "RelativeDocumentMoniker": "Table\\order_line.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_line.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:19:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "order_history.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_history.sql",
+              "RelativeDocumentMoniker": "Table\\order_history.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\order_history.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:18:45.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cust_order.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\cust_order.sql",
+              "RelativeDocumentMoniker": "Table\\cust_order.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\cust_order.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:18:26.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "customer_address.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer_address.sql",
+              "RelativeDocumentMoniker": "Table\\customer_address.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer_address.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:18:05.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "address.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address.sql",
+              "RelativeDocumentMoniker": "Table\\address.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:13:19.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "customer.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer.sql",
+              "RelativeDocumentMoniker": "Table\\customer.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\customer.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:17:48.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "country.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\country.sql",
+              "RelativeDocumentMoniker": "Table\\country.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\country.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:17:30.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "book_language.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_language.sql",
+              "RelativeDocumentMoniker": "Table\\book_language.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_language.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:16:56.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "book_author.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_author.sql",
+              "RelativeDocumentMoniker": "Table\\book_author.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book_author.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:16:34.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "book.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book.sql",
+              "RelativeDocumentMoniker": "Table\\book.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\book.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:16:08.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "author.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\author.sql",
+              "RelativeDocumentMoniker": "Table\\author.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\author.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:15:34.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "address_status.sql ",
+              "DocumentMoniker": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address_status.sql",
+              "RelativeDocumentMoniker": "Table\\address_status.sql",
+              "ToolTip": "C:\\maestria_uagrm\\bookstore_uagrm_project\\BooksStoreOLTP\\Table\\address_status.sql\r\n(localdb)\\ProjectModels.BooksStoreOLTP\r\n(RODRIGO-ASUS\\Carolina)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-14T19:14:56.358Z",
+              "EditorCaption": ""
             }
           ]
         }

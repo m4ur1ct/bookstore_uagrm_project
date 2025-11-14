@@ -1,13 +1,4 @@
-﻿USE [Bookstore]
-GO
-
-/****** Object:  Table [dbo].[book_language]    Script Date: 9/11/2025 12:20:59 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
+﻿/****** Object:  Table [dbo].[book_language]    Script Date: 9/11/2025 12:21 **********/
 CREATE TABLE [dbo].[book_language](
 	[language_id] [int] NOT NULL,
 	[language_code] [varchar](8) NULL,
