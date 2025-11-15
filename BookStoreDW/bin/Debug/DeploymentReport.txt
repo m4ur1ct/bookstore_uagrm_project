@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[DimBook] (Table)
+       [dbo].[DimCustomer] (Table)
+       [dbo].[DimDate] (Table)
+       [dbo].[DimLanguage] (Table)
+       [dbo].[DimOrderStatus] (Table)
+       [dbo].[DimPublisher] (Table)
+       [dbo].[DimShippingMethod] (Table)
+       [dbo].[FactOrderLines] (Table)
+       [dbo].[FactOrders] (Table)
+       [dbo].[FactOrderStatusHistory] (Table)
+       [dbo].[PackageConfig] (Table)
+       [dbo].[FK_FactOrderLines_Date] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Customer] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Book] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Publisher] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Language] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Shipping] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Status] (Foreign Key)
+       [dbo].[FK_FactOrders_Date] (Foreign Key)
+       [dbo].[FK_FactOrders_Customer] (Foreign Key)
+       [dbo].[FK_FactOrders_Shipping] (Foreign Key)
+       [dbo].[FK_FactOrders_Status] (Foreign Key)
+       [dbo].[FK_FactOrderStatusHistory_OrderStatus] (Foreign Key)
+       [dbo].[FK_FactOrderStatusHistory_Date] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

@@ -1,13 +1,4 @@
-﻿USE [Bookstore]
-GO
-
-/****** Object:  Table [dbo].[cust_order]    Script Date: 9/11/2025 12:21:55 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
+﻿/****** Object:  Table [dbo].[cust_order]    Script Date: 9/11/2025 12:21:55 ******/
 CREATE TABLE [dbo].[cust_order](
 	[order_id] [int] IDENTITY(1,1) NOT NULL,
 	[order_date] [datetime] NULL,

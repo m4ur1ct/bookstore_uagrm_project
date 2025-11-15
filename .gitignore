@@ -1,0 +1,7 @@
+#Visual Studio
+.vs/
+BooksStoreOLTP/.vs/
+BooksStoreOLTP/bin/
+BooksStoreOLTP/obj/Debug/
+*.dbmdl
+*.jfm

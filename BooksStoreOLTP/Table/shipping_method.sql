@@ -1,13 +1,4 @@
-﻿USE [Bookstore]
-GO
-
-/****** Object:  Table [dbo].[shipping_method]    Script Date: 9/11/2025 12:24:27 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
+﻿/****** Object:  Table [dbo].[shipping_method]    Script Date: 9/11/2025 12:24 ********/
 CREATE TABLE [dbo].[shipping_method](
 	[method_id] [int] NOT NULL,
 	[method_name] [varchar](100) NULL,
