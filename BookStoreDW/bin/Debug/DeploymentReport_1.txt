@@ -1,0 +1,130 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[DimShippingMethod]
+       [dbo].[FactOrders]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[DimBook].[ISBN] is being dropped, data loss could occur.
+       The column [dbo].[DimBook].[LanguageID] is being dropped, data loss could occur.
+       The column [dbo].[DimBook].[PublisherID] is being dropped, data loss could occur.
+       The column [dbo].[DimBook].[EffectiveFrom] on table [dbo].[DimBook] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[DimBook].[EffectiveTo] on table [dbo].[DimBook] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[DimBook].[IsCurrent] on table [dbo].[DimBook] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The type for column Title in table [dbo].[DimBook] is currently  VARCHAR (500) NULL but is being changed to  VARCHAR
+         (400) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type 
+         VARCHAR (400) NULL.
+       The column [dbo].[DimCustomer].[Address] is being dropped, data loss could occur.
+       The column [dbo].[DimCustomer].[City] is being dropped, data loss could occur.
+       The column [dbo].[DimCustomer].[Country] is being dropped, data loss could occur.
+       The column [dbo].[DimCustomer].[State] is being dropped, data loss could occur.
+       The column [dbo].[DimCustomer].[ZipCode] is being dropped, data loss could occur.
+       The column [dbo].[DimCustomer].[EffectiveFrom] on table [dbo].[DimCustomer] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[DimCustomer].[EffectiveTo] on table [dbo].[DimCustomer] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[DimCustomer].[IsCurrent] on table [dbo].[DimCustomer] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[DimPublisher].[EffectiveFrom] on table [dbo].[DimPublisher] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[DimPublisher].[EffectiveTo] on table [dbo].[DimPublisher] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[DimPublisher].[IsCurrent] on table [dbo].[DimPublisher] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[DimShippingMethod].[ShippingMethodID] is being dropped, data loss could occur.
+       The column [dbo].[DimShippingMethod].[EffectiveFrom] on table [dbo].[DimShippingMethod] must be added, but the column
+         has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To
+         avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+       The column [dbo].[DimShippingMethod].[EffectiveTo] on table [dbo].[DimShippingMethod] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[DimShippingMethod].[IsCurrent] on table [dbo].[DimShippingMethod] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[DimShippingMethod].[MethodID] on table [dbo].[DimShippingMethod] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The type for column MethodName in table [dbo].[DimShippingMethod] is currently  VARCHAR (200) NULL but is being changed
+         to  VARCHAR (100) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible
+         with type  VARCHAR (100) NULL.
+
+** User actions
+     Drop
+       [dbo].[FK_FactOrderLines_Shipping] (Foreign Key)
+     Alter
+       [dbo].[DimBook] (Table)
+       [dbo].[DimCustomer] (Table)
+       [dbo].[DimPublisher] (Table)
+     Recreate table
+       [dbo].[DimShippingMethod] (Table)
+       [dbo].[FactOrders] (Table)
+     Create
+       [dbo].[FK_DimBook_Language] (Foreign Key)
+       [dbo].[FK_DimBook_Publisher] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_FactOrders_Shipping] (Foreign Key)
+       [dbo].[FK_FactOrders_Customer] (Foreign Key)
+       [dbo].[FK_FactOrders_Date] (Foreign Key)
+       [dbo].[FK_FactOrders_Status] (Foreign Key)
+     Create
+       [dbo].[FK_FactOrders_Shipping] (Foreign Key)
+       [dbo].[FK_FactOrders_Customer] (Foreign Key)
+       [dbo].[FK_FactOrders_Date] (Foreign Key)
+       [dbo].[FK_FactOrders_Status] (Foreign Key)
+
+The column [dbo].[DimBook].[ISBN] is being dropped, data loss could occur.
+The column [dbo].[DimBook].[LanguageID] is being dropped, data loss could occur.
+The column [dbo].[DimBook].[PublisherID] is being dropped, data loss could occur.
+The column [dbo].[DimBook].[EffectiveFrom] on table [dbo].[DimBook] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimBook].[EffectiveTo] on table [dbo].[DimBook] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimBook].[IsCurrent] on table [dbo].[DimBook] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column Title in table [dbo].[DimBook] is currently  VARCHAR (500) NULL but is being changed to  VARCHAR (400) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (400) NULL.
+The column [dbo].[DimCustomer].[Address] is being dropped, data loss could occur.
+The column [dbo].[DimCustomer].[City] is being dropped, data loss could occur.
+The column [dbo].[DimCustomer].[Country] is being dropped, data loss could occur.
+The column [dbo].[DimCustomer].[State] is being dropped, data loss could occur.
+The column [dbo].[DimCustomer].[ZipCode] is being dropped, data loss could occur.
+The column [dbo].[DimCustomer].[EffectiveFrom] on table [dbo].[DimCustomer] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimCustomer].[EffectiveTo] on table [dbo].[DimCustomer] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimCustomer].[IsCurrent] on table [dbo].[DimCustomer] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimPublisher].[EffectiveFrom] on table [dbo].[DimPublisher] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimPublisher].[EffectiveTo] on table [dbo].[DimPublisher] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimPublisher].[IsCurrent] on table [dbo].[DimPublisher] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimShippingMethod].[ShippingMethodID] is being dropped, data loss could occur.
+The column [dbo].[DimShippingMethod].[EffectiveFrom] on table [dbo].[DimShippingMethod] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimShippingMethod].[EffectiveTo] on table [dbo].[DimShippingMethod] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimShippingMethod].[IsCurrent] on table [dbo].[DimShippingMethod] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[DimShippingMethod].[MethodID] on table [dbo].[DimShippingMethod] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The type for column MethodName in table [dbo].[DimShippingMethod] is currently  VARCHAR (200) NULL but is being changed to  VARCHAR (100) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  VARCHAR (100) NULL.
+The column CustomerSK on table [dbo].[FactOrders] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The project and target databases have different collation settings. Deployment errors might occur.
+

@@ -1,8 +1,6 @@
 ﻿CREATE TABLE [dbo].[DimDate]
 (
-    [DateKey]          INT         NOT NULL CONSTRAINT PK_DimDate PRIMARY KEY, 
-    -- Recomendado: formato YYYYMMDD
-
+    [DateKey]          INT         NOT NULL PRIMARY KEY, -- YYYYMMDD
     [FullDate]         DATE        NOT NULL,
     [Year]             SMALLINT    NOT NULL,
     [Month]            TINYINT     NOT NULL,

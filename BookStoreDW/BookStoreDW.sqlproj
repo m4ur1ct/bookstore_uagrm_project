@@ -59,16 +59,12 @@
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\DimBook.sql" />
     <Build Include="Tables\DimCustomer.sql" />
     <Build Include="Tables\DimDate.sql" />
-    <Build Include="Tables\DimLanguage.sql" />
     <Build Include="Tables\DimOrderStatus.sql" />
-    <Build Include="Tables\DimPublisher.sql" />
     <Build Include="Tables\DimShippingMethod.sql" />
-    <Build Include="Tables\FactOrderLines.sql" />
     <Build Include="Tables\FactOrders.sql" />
-    <Build Include="Tables\FactOrderStatusHistory.sql" />
     <Build Include="Tables\PackageConfig.sql" />
+    <Build Include="Tables\DimAddress.sql" />
   </ItemGroup>
 </Project>

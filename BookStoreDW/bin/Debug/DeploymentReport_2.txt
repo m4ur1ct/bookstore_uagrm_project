@@ -1,0 +1,52 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[DimCustomer]
+       [dbo].[DimOrderStatus]
+       [dbo].[DimShippingMethod]
+       [dbo].[FactOrders]
+       [dbo].[DimDate]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[DimCustomer].[CustomerType] is being dropped, data loss could occur.
+       The column [dbo].[FactOrders].[TotalAmount] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_FactOrders_Shipping] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Customer] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Date] (Foreign Key)
+       [dbo].[FK_FactOrderStatusHistory_Date] (Foreign Key)
+       [dbo].[FK_FactOrderLines_Status] (Foreign Key)
+       [dbo].[FK_FactOrderStatusHistory_OrderStatus] (Foreign Key)
+     Recreate table
+       [dbo].[DimCustomer] (Table)
+       [dbo].[DimOrderStatus] (Table)
+       [dbo].[DimShippingMethod] (Table)
+       [dbo].[FactOrders] (Table)
+       [dbo].[DimDate] (Table)
+     Create
+       [dbo].[DimAddress] (Table)
+       [dbo].[FK_FactOrders_ShippingMethod] (Foreign Key)
+       [dbo].[FK_FactOrders_Address] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_FactOrders_Customer] (Foreign Key)
+       [dbo].[FK_FactOrders_Date] (Foreign Key)
+       [dbo].[FK_FactOrders_Status] (Foreign Key)
+     Create
+       [dbo].[FK_FactOrders_Customer] (Foreign Key)
+       [dbo].[FK_FactOrders_Date] (Foreign Key)
+       [dbo].[FK_FactOrders_Status] (Foreign Key)
+
+The column [dbo].[DimCustomer].[CustomerType] is being dropped, data loss could occur.
+The column FirstName on table [dbo].[DimCustomer] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column LastName on table [dbo].[DimCustomer] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column StatusValue on table [dbo].[DimOrderStatus] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column MethodName on table [dbo].[DimShippingMethod] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[FactOrders].[TotalAmount] is being dropped, data loss could occur.
+The project and target databases have different collation settings. Deployment errors might occur.
+
