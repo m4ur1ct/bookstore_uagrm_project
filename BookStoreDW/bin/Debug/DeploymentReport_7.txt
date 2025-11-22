@@ -1,0 +1,37 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[DimAddress] (Tabla)
+       [dbo].[DimAddress].[ux_DimAddress_AddressID] (Índice)
+       [dbo].[DimAuthor] (Tabla)
+       [dbo].[DimAuthor].[ux_DimAuthor_AuthorID] (Índice)
+       [dbo].[DimBook] (Tabla)
+       [dbo].[DimBook].[ux_DimBook_BookID] (Índice)
+       [dbo].[DimCustomer] (Tabla)
+       [dbo].[DimCustomer].[ix_DimCustomer_BK] (Índice)
+       [dbo].[DimDate] (Tabla)
+       [dbo].[DimShippingMethod] (Tabla)
+       [dbo].[FactSales] (Tabla)
+       [dbo].[PackageConfig] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[DimBook] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[DimCustomer] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[FactSales] (Restricción DEFAULT)
+       Clave externa: restricción sin nombre en [dbo].[FactSales] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[FactSales] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[FactSales] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[FactSales] (Clave externa)
+       Clave externa: restricción sin nombre en [dbo].[FactSales] (Clave externa)
+
+** Acciones de compatibilidad
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

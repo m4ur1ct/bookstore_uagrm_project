@@ -1,13 +1,7 @@
-﻿CREATE TABLE [dbo].[DimShippingMethod]
-(
-    [ShippingMethodSK] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
-    [MethodID]         INT               NOT NULL, -- Business key (OLTP)
-    [MethodName]       VARCHAR(200)      NOT NULL,
-    [Cost]             DECIMAL(10,2)     NULL,
-
-    -- SCD2 tracking
-    [EffectiveFrom]    DATE              NOT NULL,
-    [EffectiveTo]      DATE              NOT NULL,
-    [IsCurrent]        BIT               NOT NULL
+﻿CREATE TABLE DimShippingMethod (
+    ShippingMethodKey INT IDENTITY(1,1) PRIMARY KEY,
+    MethodID          INT NOT NULL,
+    MethodName        VARCHAR(100),
+    StandardCost      DECIMAL(6,2)
 );
 GO

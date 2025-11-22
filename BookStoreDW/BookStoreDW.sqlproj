@@ -60,11 +60,11 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\DimCustomer.sql" />
-    <Build Include="Tables\DimDate.sql" />
-    <Build Include="Tables\DimOrderStatus.sql" />
+    <Build Include="Tables\DimBook.sql" />
     <Build Include="Tables\DimShippingMethod.sql" />
-    <Build Include="Tables\FactOrders.sql" />
-    <Build Include="Tables\PackageConfig.sql" />
     <Build Include="Tables\DimAddress.sql" />
+    <Build Include="Tables\FactSales.sql" />
+    <Build Include="Tables\PackageConfig.sql" />
+    <Build Include="Tables\DimDate.sql" />
   </ItemGroup>
 </Project>

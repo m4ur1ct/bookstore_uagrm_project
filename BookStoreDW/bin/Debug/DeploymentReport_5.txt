@@ -1,0 +1,56 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       [dbo].[DimCustomer]
+       [dbo].[DimOrderStatus]
+       [dbo].[DimShippingMethod]
+       [dbo].[FactOrders]
+       [dbo].[DimAddress]
+       [dbo].[DimDate]
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Se está quitando la columna [dbo].[DimCustomer].[CustomerType]; puede que se pierdan datos.
+       Se está quitando la columna [dbo].[FactOrders].[TotalAmount]; puede que se pierdan datos.
+
+** Acciones del usuario
+     Quitar
+       [dbo].[FK_FactOrderLines_Address] (Clave externa)
+       [dbo].[FK_FactOrderLines_Customer] (Clave externa)
+       [dbo].[FK_FactOrderStatusHistory_Date] (Clave externa)
+       [dbo].[FK_FactOrderLines_Date] (Clave externa)
+       [dbo].[FK_FactOrderStatusHistory_OrderStatus] (Clave externa)
+       [dbo].[FK_FactOrderLines_Status] (Clave externa)
+       [dbo].[FK_FactOrderLines_Shipping] (Clave externa)
+       [dbo].[FK_FactOrders_Shipping] (Clave externa)
+     Volver a crear la tabla
+       [dbo].[DimCustomer] (Tabla)
+       [dbo].[DimOrderStatus] (Tabla)
+       [dbo].[DimShippingMethod] (Tabla)
+       [dbo].[FactOrders] (Tabla)
+       [dbo].[DimAddress] (Tabla)
+       [dbo].[DimDate] (Tabla)
+     Crear
+       [dbo].[FK_FactOrders_ShippingMethod] (Clave externa)
+
+** Acciones de compatibilidad
+     Quitar
+       [dbo].[FK_FactOrders_Address] (Clave externa)
+       [dbo].[FK_FactOrders_Customer] (Clave externa)
+       [dbo].[FK_FactOrders_Date] (Clave externa)
+       [dbo].[FK_FactOrders_Status] (Clave externa)
+     Crear
+       [dbo].[FK_FactOrders_Address] (Clave externa)
+       [dbo].[FK_FactOrders_Customer] (Clave externa)
+       [dbo].[FK_FactOrders_Date] (Clave externa)
+       [dbo].[FK_FactOrders_Status] (Clave externa)
+
+Se está quitando la columna [dbo].[DimCustomer].[CustomerType]; puede que se pierdan datos.
+La columna FirstName de la tabla [dbo].[DimCustomer] debe cambiarse de NULL a NOT NULL. Si la tabla contiene datos, puede que no funcione el script ALTER. Para evitar esta incidencia, debe agregar valores en todas las filas de esta columna, marcar la columna de modo que permita valores NULL o habilitar la generación de valores predeterminados inteligentes como opción de implementación.
+La columna LastName de la tabla [dbo].[DimCustomer] debe cambiarse de NULL a NOT NULL. Si la tabla contiene datos, puede que no funcione el script ALTER. Para evitar esta incidencia, debe agregar valores en todas las filas de esta columna, marcar la columna de modo que permita valores NULL o habilitar la generación de valores predeterminados inteligentes como opción de implementación.
+La columna StatusValue de la tabla [dbo].[DimOrderStatus] debe cambiarse de NULL a NOT NULL. Si la tabla contiene datos, puede que no funcione el script ALTER. Para evitar esta incidencia, debe agregar valores en todas las filas de esta columna, marcar la columna de modo que permita valores NULL o habilitar la generación de valores predeterminados inteligentes como opción de implementación.
+La columna MethodName de la tabla [dbo].[DimShippingMethod] debe cambiarse de NULL a NOT NULL. Si la tabla contiene datos, puede que no funcione el script ALTER. Para evitar esta incidencia, debe agregar valores en todas las filas de esta columna, marcar la columna de modo que permita valores NULL o habilitar la generación de valores predeterminados inteligentes como opción de implementación.
+Se está quitando la columna [dbo].[FactOrders].[TotalAmount]; puede que se pierdan datos.
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+
